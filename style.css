@@ -24,6 +24,9 @@ body{
     background-size: cover;
     background-position: center;
 }
+.container5{
+    padding: 10px 10%;
+}
 .container{
     padding: 10px 10%;
 }
@@ -40,13 +43,13 @@ nav ul li{
     margin: 10px 20px;
 
 }
-nav ul li a h1{
-    font-size: 20px;
+.navh{
+    font-size: 1px;
 }
 nav ul li a{
     color: white;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 15px;
     position: relative;
 }
 nav ul li a::after{
@@ -97,9 +100,15 @@ nav ul li a:hover::after{
 .about-col-2{
     flex-basis: 60%;
 }
+.about-col-2 p{
+    font-size: 20px;
+}
+.about-col-2 h1{
+    font-size: 50px;
+}
 .sub-title{
-    font-size: 60px;
-    font-weight: 600;
+    font-size: 100px;
+    
     color: #fff;
 }
 .tab-title{
@@ -128,12 +137,13 @@ nav ul li a:hover::after{
     width: 100%;
 }
 .tab-content ul li{
+    font-size: 20px;
     list-style: none;
     margin: 10px 0;
 }
 .tab-content ul li span{
     color: rgb(255, 255, 255);
-    font-size: 20px;
+    font-size: 25px;
     
 }
 .tab-content{
@@ -143,13 +153,13 @@ nav ul li a:hover::after{
     display: block;
 }
 
-/* ------------------------------ความสามารถ----------------------------- */
+/* ------------------------------งานอดิเรก----------------------------- */
 #skill{
     padding: 30px 0;
 
 }
-.sub-title{
-    font-size: 70px;
+.container h1{
+    font-size: 50px;
 }
 .skill-list{
     display: grid;
@@ -167,7 +177,7 @@ nav ul li a:hover::after{
     transition: background-color 0.5s, transform 0.5s;
 }
 .skill-list div p{
-    font-size: 17px;
+    font-size: 20px;
 }
 .skill-list div h2{
     font-weight: 300;
@@ -314,7 +324,7 @@ nav ul li a:hover::after{
     border-radius: 15px;
     background-color: white;
     text-align: center;
-    height: 300px;
+    height: 350px;
     width: 400px;
     top: 50%;
     left: 50%;
@@ -348,6 +358,7 @@ nav ul li a:hover::after{
     margin: 1rem;
 }
 .textcontainer h4{
+    font-size: 20px;
     margin: 0 2rem;
 }
 .close2{
@@ -397,6 +408,9 @@ nav ul li a:hover::after{
 .contact-left p {
     margin-top: 10px;
 
+}
+.contact-left h1{
+    font-size: 40px;
 }
 .contact-left p i{
     color: #ff004f;
@@ -504,6 +518,7 @@ nav .fas{
         font-size: 15px;
     }
     .textcontainer{
+        height: 400px;
         width: 300px;
     }
 
@@ -531,6 +546,27 @@ nav .fas{
         flex-basis: 100%;
     
     }
+    .about-col-2 p{
+        font-size: 15px;
+    }
+    .about-col-2 h1{
+        font-size: 40px;
+    }
+    .tab-content ul li{
+        font-size: 15px;
+    }
+    .tab-content ul li span{
+        
+        font-size: 20px;
+        
+    }
+    .skill-list div p{
+        font-size: 15px;
+    }
+    .container h1{
+        font-size: 40px;
+    }
+    
     
     
 }
@@ -600,5 +636,14 @@ nav .fas{
     }
     .popcontainer{
         margin: 0 5rem;
+    }
+    .layer h2{
+        font-size: 15px;
+    }
+    .layer p{
+        font-size: 10px;
+    }
+    .layer i{
+        font-size: 15px;
     }
 }
