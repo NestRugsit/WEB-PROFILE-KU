@@ -179,6 +179,22 @@ nav ul li a:hover::after{
 .skill-list div p{
     font-size: 20px;
 }
+.skill-list div h1 a{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+   font-size: 20px;
+    padding: 1rem;
+    border-radius: 15px;
+    background-color: #292929;
+    transition: background-color 0.2s, color 0.2s;
+    
+}
+.skill-list div h1 a:hover{
+    color: #292929;
+    background-color: #ffffff;
+
+}
 .skill-list div h2{
     font-weight: 300;
 }
